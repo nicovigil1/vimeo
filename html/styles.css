@@ -1,0 +1,69 @@
+body {
+    font: 300 16px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+}
+
+.title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.buttons {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+body {
+    background-color: #F1F8FF
+}
+li {
+    display: inline;
+    padding: 5px;
+}
+
+#join-nav {
+    padding: 5px; 
+    border: 1px solid #BCC6CD;
+    border-radius: 4px;
+}
+
+ul {
+    padding-right: 40px;
+}
+
+#upload {
+    color: white;
+    background-color: #0D171C;
+    border-radius: 4px;
+}
+
+.right-nav {
+    float: right;
+}
+
+#logo {
+    height: 28px;
+    width: auto;
+}
+
+#join {
+    border: 1px solid #BCC6CD;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px; 
+}
+
+#plans { 
+    padding: 5px; 
+    border: 1px solid #BCC6CD;
+    border-radius: 4px;
+    background-color: #d86995;
+}
